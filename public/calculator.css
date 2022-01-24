@@ -10,8 +10,8 @@ html{
 
 body{
     background-color: white;
-    width:1400px;
-    height:800px;
+    width: 1200px;
+    padding-bottom: 100px;
     padding-left: 20px;
     padding-right: 20px;
     margin: auto;
@@ -25,16 +25,21 @@ main {
     background-color:rgb(231, 231, 231);
     padding-left: 10px;
     padding-right: 10px;
-    align-self: 
+    width: fit-content;
+    position:relative;
+    overflow: hidden;
 }
 
 table {
-    background: lightgray;
-    border: solid grey 2px;
+    background-color: gray;
 }
 
 p{
     font-size:large; 
+}
+
+h3{
+    color: rgb(151, 12, 12);
 }
 
 th{
@@ -43,4 +48,16 @@ th{
     background-color:rgb(231, 231, 231);
     padding: 6px;
 }
+
+button{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    height: 40px;
+    font-size: medium;
+    background-color:rgb(151, 12, 12);
+    border: 0px;
+    border-radius:5px;
+    color: white;
+}
+
 

@@ -19,41 +19,53 @@
             <p>
                 Give grades to the numeric activities:
             </p>
+            <br>
             <table>
+                <div class="tablefirstrow">
                 <tr>
-                    <th>Name</th>
-                    <th>Short Name</th>
-                    <th>Weight</th>
-                    <th>Grade</th>
-                    <th>Percent</th>
+                    <th style="background: rgb(175, 175, 175);">Name</th>
+                    <th style="background: rgb(175, 175, 175);">Short Name</th>
+                    <th style="background: rgb(175, 175, 175);">Weight</th>
+                    <th style="background: rgb(175, 175, 175);">Grade</th>
+                    <th style="background: rgb(175, 175, 175);">Percent</th>
                 </tr>
                 
                 <tr>
                     <th>Activity 1</th>
                     <th>A1</th>
-                    <th><input type="text" style="width:50px;"></th>
-                    <th><input type="text" style="width:50px;"> / <input type="text" style="width:50px;"></th>
+                    <th><input type="weight" id="a1weight" style="width:50px;"></th>
+                    <th><input type="mark" id="a1mark" style="width:50px;"> / <input type="total" id="a1total"  style="width:50px;"></th>
+                    <th></th>
                 </tr>
                 <tr>
                     <th>Activity 2</th>
                     <th>A2</th>
                     <th><input type="text" style="width:50px;"></th>
                     <th><input type="text" style="width:50px;"> / <input type="text" style="width:50px;"></th>
+                    <th><output type=""></output></th>
                 </tr>
                 <tr>
                     <th>Activity 3</th>
                     <th>A3</th>
                     <th><input type="text" style="width:50px;"></th>
                     <th><input type="text" style="width:50px;"> / <input type="text" style="width:50px;"></th>
+                    <th></th>
                 </tr>
                 <tr>
                     <th>Activity 4</th>
                     <th>A4</th>
                     <th><input type="text" style="width:50px;"></th>
                     <th><input type="text" style="width:50px;"> / <input type="text" style="width:50px;"></th>
+                    <th></th>
                 </tr>
+            </div>
+        </table>
+            <button type="button">ADD ACTIVITY</button>
+            <br><br>
+            <h3>Result</h3>
+            <button type="button" style="float:right; margin: 5px; padding-left: 20px; padding-right: 20px;">Mean</button>
+            <button type="button" style="float:right; margin: 5px;">Weighted</button>
             
-            </table>
         </main>
     </body>
 </html>
