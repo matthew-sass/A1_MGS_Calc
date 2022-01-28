@@ -32,7 +32,10 @@ main {
 
 input{
     width:60px;
-    border: 1px solid grey;
+}
+
+table{
+    background-color: grey;
 }
 
 p{
