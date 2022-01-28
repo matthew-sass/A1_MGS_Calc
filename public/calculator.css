@@ -30,8 +30,9 @@ main {
     overflow: hidden;
 }
 
-table {
-    background-color: gray;
+input{
+    width:60px;
+    border: 1px solid grey;
 }
 
 p{
@@ -41,12 +42,18 @@ p{
 h3{
     color: rgb(151, 12, 12);
 }
-
 th{
     width: 150px;
     text-align: left;
     background-color:rgb(231, 231, 231);
     padding: 6px;
+}
+td{
+    width: 150px;
+    text-align: left;
+    background-color:rgb(231, 231, 231);
+    padding: 6px;
+    border: 1px solid grey;
 }
 
 button{
@@ -59,5 +66,6 @@ button{
     border-radius:5px;
     color: white;
 }
+
 
 
